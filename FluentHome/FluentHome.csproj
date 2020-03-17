@@ -132,9 +132,15 @@
   <ItemGroup>
     <Content Include="Assets\Images\Cortana.png" />
     <Content Include="Assets\Images\Defender.png" />
+    <Content Include="Assets\Images\File_Explorer.png" />
+    <Content Include="Assets\Images\Mail.png" />
     <Content Include="Assets\Images\Messages.png" />
+    <Content Include="Assets\Images\Microsoft_Edge.png" />
     <Content Include="Assets\Images\OneDrive.png" />
     <Content Include="Assets\Images\Spotify.png" />
+    <Content Include="Assets\Images\Office.png" />
+    <Content Include="Assets\Images\Visual_Studio.png" />
+    <Content Include="Assets\Images\Visual_Studio_Code_Insiders.png" />
     <Content Include="Assets\Images\wallpaper.jpg" />
     <Content Include="Assets\Images\Windows_FN.png" />
     <Content Include="Properties\Default.rd.xml" />
