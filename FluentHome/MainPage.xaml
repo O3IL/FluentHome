@@ -9,6 +9,38 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <Image Stretch="Fill" Source="/Assets/Images/wallpaper.jpg" />
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Canvas.ZIndex="1" Width="3000">
+            <Grid Background="{ThemeResource SystemControlAcrylicElementBrush}" CornerRadius="10" Margin="20, 0, 10, 20">
+                <Image Stretch="Fill" Source="/Assets/Images/Windows_FN.png" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10"/>
+                <Grid.ContextFlyout>
+                    <Flyout>
+                        <TextBlock>wddedewrewrew</TextBlock>
+                    </Flyout>
+                </Grid.ContextFlyout>
+            </Grid>
+            <Grid Background="{ThemeResource SystemControlAcrylicElementBrush}" CornerRadius="10" Margin="20, 0, 10, 20">
+                <AutoSuggestBox PlaceholderText="Type here to search..." QueryIcon="Microphone" Width="300" HorizontalAlignment="Center" VerticalAlignment="Center"  Margin="10"></AutoSuggestBox>
+            </Grid>
+            <Grid Background="{ThemeResource SystemControlAcrylicElementBrush}" CornerRadius="10" Margin="20, 0, 10, 20">
+                <StackPanel Orientation="Horizontal">
+                    <Image Stretch="Fill" Source="/Assets/Images/Spotify.png" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10"/>
+                    <Image Stretch="Fill" Source="/Assets/Images/OneDrive.png" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10"/>
+                   <!-- <Image Stretch="Fill" Source="/Assets/Images/Skype.png" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10"/>-->
+                    <Image Stretch="Fill" Source="/Assets/Images/Defender.png" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10"/>
+                </StackPanel>
+            </Grid>
+            <Grid Background="{ThemeResource SystemControlAcrylicElementBrush}" CornerRadius="10" Margin="20, 0, 10, 20">
+                <StackPanel>
+                    <TextBlock Text="0/69/420      3:00 PM"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10, 20, 10, 10"></TextBlock>
+                </StackPanel>
+            </Grid>
+    <Grid Background="{ThemeResource SystemControlAcrylicElementBrush}" CornerRadius="10" Margin="20, 0, 10, 20" HorizontalAlignment="Right">
+                <Image Stretch="Fill" Source="/Assets/Images/cortana.png" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10"/>
+            </Grid>
+            <Grid Background="{ThemeResource SystemControlAcrylicElementBrush}" CornerRadius="10" Margin="20, 0, 10, 20" HorizontalAlignment="Right">
+                <Image Stretch="Fill" Source="/Assets/Images/Messages.png" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10"/>
+            </Grid>
+        </StackPanel>
     </Grid>
 </Page>
